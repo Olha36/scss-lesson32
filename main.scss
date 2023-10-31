@@ -1,11 +1,14 @@
 @import './components/Variables/style.scss';
 @import './components/Bem/style.scss';
-$color: rgb(27, 25, 25);
+$color: rgb(236, 40, 203);
+$backgroundColor: aqua;
 $boxShadow: #7d6e6e;
 body {
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: $backgroundColor;
 }
 h1 {
     text-align: center;
