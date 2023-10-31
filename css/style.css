@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  margin-left: 30%;
+}
+.about ul {
+  padding: 0;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+}
+.bold:hover {
+  background-color: yellow;
+}
+
+.two,
+.three,
+.modificator,
+.mixes,
+.selectors {
+  margin-left: 30%;
+}
+.two ul,
+.three ul,
+.modificator ul,
+.mixes ul,
+.selectors ul {
+  padding: 0;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+}
+
+.mixes-green {
+  color: green;
+}ee,
+.modificator,
+.mixes,
+.selectors {
+  margin-left: 30%;
+}
+.two ul,
+.three ul,
+.modificator ul,
+.mixes ul,
+.selectors ul {
+  padding: 0;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+}
+
+.mixes-green {
+  color: green;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.blocks {
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+  width: 300px;
+  height: 100px;
+  margin-right: 10px;
+  box-shadow: 6px 2px 25px #7d6e6e;
+}
+button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(27, 25, 25);
+}

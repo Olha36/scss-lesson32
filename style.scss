@@ -1,0 +1,28 @@
+@import './components/Variables/style.scss';
+@import './components/Bem/style.scss';
+$color: rgb(27, 25, 25);
+$boxShadow: #7d6e6e;
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+.blocks {
+    text-align: center;
+}
+button {
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+    margin-right: 10px;
+    box-shadow: 6px 2px 25px $boxShadow;
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        color: $color;
+    }
+}
