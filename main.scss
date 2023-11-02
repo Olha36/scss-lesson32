@@ -1,5 +1,6 @@
-@import './components/Variables/style.scss';
-@import './components/Bem/style.scss';
+@import './components/Variables/variables.scss';
+@import './components/Bem/bem.scss';
+@import './components/InsertedRules/inserted.scss';
 $color: rgb(236, 40, 203);
 $backgroundColor: aqua;
 $boxShadow: #7d6e6e;

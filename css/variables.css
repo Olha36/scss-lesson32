@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header img {
+  margin-left: 10px;
+}
+.header img:hover {
+  cursor: pointer;
+}
+
+.info,
+.task {
+  text-align: center;
+}

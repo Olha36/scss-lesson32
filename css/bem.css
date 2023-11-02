@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  margin-left: 30%;
+}
+.about ul {
+  padding: 0;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+}
+.bold:hover {
+  background-color: yellow;
+}
+
+.two,
+.three,
+.modificator,
+.mixes,
+.selectors {
+  margin-left: 30%;
+}
+.two ul,
+.three ul,
+.modificator ul,
+.mixes ul,
+.selectors ul {
+  padding: 0;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+}
+
+.mixes-green {
+  color: green;
+}
