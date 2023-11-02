@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/variables.css">
     <title>Змінні та область видимості</title>
 </head>
 <body>
     <div class="header">
         <h1>Змінні та область видимості</h1>
         <a href="../../index.html">
-            <img class="home-img" src="../Variables/img/home.gif" alt="home">
+            <img src="../Variables/img/home.gif" alt="home">
         </a>
         
     </div>
-    <div class="info">
+    <div class="variables_container">
         <p>
             Змінні в SASS можуть бути застосовані до будь-якої властивості. 
             <br> Частіше всього вони використовуються для властивостей, які
             <br> повторюються для різних елементів. В CSS вони позначаються 
-            <br> подвійним тире (--), а в препроцесорах знаком долара ($).
+            <br> подвійним тире (--), а в препроцесорах <span class="variables_container_hover"> знаком долара ($)</span>.
         </p>
         <p>
             Імена змінних повинні бути описові, щоб за ім'ям було зрозуміло, 
-            <br> що там зберігається. Змінна $color-blue має деяке значення 
+            <br> що там зберігається. Змінна <span class="variables_container_color">$color-blue</span> має деяке значення 
             <br> (крім того, що вона вказує на синій колір), а ось $color-accent, 
             <br> $color-primary або $color-background показує роль цього кольору.
         </p>
@@ -45,7 +45,7 @@
             <br> області видимості, виникне помилка компіляції стилів
         </p>
     </div>
-    <div class="task">
+    <div class="variables_container_task">
         <h2>Завдання:</h2>
         <p>
             додати SCSS-змінні у проєкті фотоблог - всю палітру кольорів помістити у змінні та 
