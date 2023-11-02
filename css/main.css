@@ -1,0 +1,121 @@
+h1 {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header img {
+  margin-left: 10px;
+}
+.header img:hover {
+  cursor: pointer;
+}
+
+.info,
+.task {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  margin-left: 30%;
+}
+.about ul {
+  padding: 0;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+}
+.bold:hover {
+  background-color: yellow;
+}
+
+.two,
+.three,
+.modificator,
+.mixes,
+.selectors {
+  margin-left: 30%;
+}
+.two ul,
+.three ul,
+.modificator ul,
+.mixes ul,
+.selectors ul {
+  padding: 0;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+}
+
+.mixes-green {
+  color: green;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header a {
+  margin-left: 10px;
+}
+
+.main {
+  text-align: center;
+}
+.main .img {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  justify-content: center;
+}
+.main img {
+  width: 654px;
+  height: 303px;
+}
+.main span:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+  width: 300px;
+  height: 100px;
+  margin-right: 10px;
+  box-shadow: 6px 2px 25px #7d6e6e;
+}
+button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(236, 40, 203);
+}
